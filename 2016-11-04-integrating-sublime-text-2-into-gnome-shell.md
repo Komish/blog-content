@@ -10,7 +10,7 @@ In a world of a milliion plenty-capable text editors, users tend to return to th
 
 I find the most important workflow element is the ability to launch Sublime Text via a Gnome Launcher. Realistically, I want to be able to add it to my "favorites" (i.e. have it listed in the dock on the left side of my screen) as well as launch the application by simple hitting Super+"Sublime" to utilize Gnome Search.
 
-![sublime-text-tarball-extracted][images/sublime-text-tarball-extracted.png]
+[sublime-text-tarball-extracted]({filename}/images/sublime-text-tarball-extracted.png)
 
 The tarball provides you with an executable, some icon files, and the necessary libraries and python bits that as an end-user I don't really care too much about. Gnome Shell relies on `.desktop` files for launcher configuration files but Sublime Text does not provide one. I didn't know the syntax off hand so I borrowed from Gedit which can be found in `/usr/share/applications/org.gnome.gedit.desktop`. This file has a lot of localization bits to it, but you can strip those out if they're not important to you. The resultant file for me looked like this:
 
@@ -42,4 +42,4 @@ At this point, Gnome Shell documentation suggestions running an update of the de
 
 From my experience, this didn't work the first time. After several Gnome Shell restart (`alt+F2`, `r`, `<enter>`) I eventually hit a point where I needed to simply restart my computer and on reboot the Icon was searchable and launchable via Gnome's integrated search.
 
-![gnome-search-result-sublime][images/gnome-shell-search-sublime.png]
+![gnome-search-result-sublime][{filename}/images/gnome-shell-search-sublime.png]
