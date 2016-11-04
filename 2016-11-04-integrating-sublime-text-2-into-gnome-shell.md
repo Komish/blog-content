@@ -38,7 +38,9 @@ The Alt+Tab window in Gnome Shell appears to take this executable name into acco
 
 At this point, Gnome Shell documentation suggestions running an update of the desktop database to process your changes:
 
-```update-desktop-database```
+```
+update-desktop-database
+```
 
 From my experience, this didn't work the first time. After several Gnome Shell restart (`alt+F2`, `r`, `<enter>`) I eventually hit a point where I needed to simply restart my computer and on reboot the Icon was searchable and launchable via Gnome's integrated search.
 
