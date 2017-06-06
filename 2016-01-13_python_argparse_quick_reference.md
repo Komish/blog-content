@@ -1,8 +1,8 @@
 Title: Creating Command Line Arguments with Python and ArgParse
 Date: 2016-01-13 10:20
-Category: Python, Scripting
-Tags: Python, Scripting
-Slug: python-cli-argument-quick-reference
+Category: Code
+Tags: python
+Slug: creating-comand-line-arguments-with-argparse
 Authors: Jose R. Gonzalez
 Summary: Quick Reference Sheet for creating common cli arguments in Python using the ArgParse library
 
