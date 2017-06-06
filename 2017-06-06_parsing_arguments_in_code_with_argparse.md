@@ -22,9 +22,9 @@ Type of sys.argv <class 'list'>
 Data of sys.argv ['./test.py', '-h', 'hello', '-w', 'world']
 ```
 
-Then, performing the `parse_args()` on an `ArgumentParser()` object will result in a Namespace object containing the key-values as determined based on existing argument constructs, and the list contains in `sys.argv`.
+Then, performing the `parse_args()` on an `ArgumentParser()` object will result in a Namespace object containing the key-values as determined based on existing argument constructs, and the list contained in `sys.argv`.
 
-With that said, there's nothing stopping you from passing a list into parse_args() once inside the script logic if you should find yourself needing to:
+With that said, there's nothing stopping you from passing a list into `parse_args()` once inside the script logic if you should find yourself needing to:
 
 ```python
 >>> import sys
