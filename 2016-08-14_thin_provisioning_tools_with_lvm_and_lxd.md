@@ -36,7 +36,7 @@ pool container/LXDPool failed (status:2). Manual repair required!\n  Aborting. F
 t=2016-08-14T21:49:40-0500 lvl=eror msg=LVMCreateThinLV driver=storage/lvm err="Could not create thin LV named 628c432840e1aedc44006d3c6f7ace79d50753d2267b159289cd2e7490f2348f"
 ```
 
-From this output, I determined that the executed command `/usr/sbin/thin_check` was the missing piece and this file didn't exist on my filesystme. A quick google search led me to to install the following package which is not installed by default:
+From this output, I determined that the executed command `/usr/sbin/thin_check` was the missing piece and this file didn't exist on my filesystem. A quick google search led me to to install the following package which is not installed by default:
 
 ```
 apt-get install thin-provisioning-tools -y 
