@@ -26,7 +26,7 @@ The finished product is an appealing minimalistic view - especially with other a
 
 ![iterm2-capture-busy]({filename}/images/iterm2-capture-busy.png)
 
-For a bit of extra minimalizism, reducing the clutter in your PS2 prompt can add an extra bit of visual value while still keeping information you need visible as seen in my setup here. In execution, you might initially have difficulty moving this window around. This is easily solved by grabbing an edge on a side that does not move the direction you want to move the window. So as an example, moving the window up and down should prompt you to grab the left or right edges (edges designated for scaling the window horizontally) and then dragging parallel to the edge you've which should allow you to move it.
+For a bit of extra minimalism, reducing the clutter in your PS2 prompt can add an extra bit of visual value while still keeping information you need visible as seen in my setup here. In execution, you might initially have difficulty moving this window around. This is easily solved by grabbing an edge on a side that does not move the direction you want to move the window. So as an example, moving the window up and down should prompt you to grab the left or right edges (edges designated for scaling the window horizontally) and then dragging parallel to the edge you've which should allow you to move it.
 
 The font in use here is [Fantasque Sans](https://fontlibrary.org/en/font/fantasque-sans-mono).
 
