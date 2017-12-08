@@ -30,6 +30,6 @@ For a bit of extra minimalism, reducing the clutter in your PS2 prompt can add a
 
 The font in use here is [Fantasque Sans](https://fontlibrary.org/en/font/fantasque-sans-mono).
 
-All in all, I'm pleased with the result. While aesthetic for these kinds of things is secondary to getting work down using these tools - there's something to be said about having an aesthetic to appeals to you in the tools you work with (an argument commonly brought up in discussions about GUI frameworks consumed by workstation-oriented linux distributions).
+All in all, I'm pleased with the result. While aesthetic for these kinds of things is secondary to getting work done using these tools - there's something to be said about having an aesthetic to appeals to you in the tools you work with (an argument commonly brought up in discussions about GUI frameworks consumed by workstation-oriented linux distributions).
 
 Have fun!
