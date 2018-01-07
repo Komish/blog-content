@@ -1,7 +1,7 @@
 Title: Disk Enumeration Behavior with OpenStack Nova and Libvirt+KVM
 Date: 2018-01-06 18:50
 Category: OpenStack
-Tags: openstack, nova, libvirt, kvm, cinder
+Tags: openstack, nova, libvirt, kvm, cinder, linux
 Slug: disk-enumeration-behavior-with-openstack-nova-libvirt-kvm
 Authors: Jose R. Gonzalez
 Summary: Observing interesting behaviors in attaching volumes to resized instances.
