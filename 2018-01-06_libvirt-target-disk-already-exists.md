@@ -1,4 +1,4 @@
-Title: Disk enumeration behavior with OpenStack Nova and Libvirt+KVM
+Title: Disk Enumeration Behavior with OpenStack Nova and Libvirt+KVM
 Date: 2018-01-06 18:50
 Category: OpenStack
 Tags: openstack, nova, libvirt, kvm, cinder
