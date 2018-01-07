@@ -19,7 +19,7 @@ So what gives?
 
 From what I've seen, the source of the issue seems to be the enumeration logic done by nova code to determine how to enumerate an attached disk based on the disks that are presented already - and something tells me it's partially due to the bug(?) which prevents an end-user from specifying which device a disk will become on attach in KVM-based hypervisors. Disclaimer: I've only taken a cursory look over the code to determine how to reproduce this. In most cases I've seen, this issue will appear when an instance has been resized to include an ephemeral or a swap disk while a cinder block is attached, and then the cinder block is detached. After that block is detached, re-attaching (or attaching a new block) will trigger the Exception.
 
-Reproducing this is fairly straightforward. In this case I've done so in a lab deployed using [openstack-ansible](https://docs.openstack.org/openstack-ansible/latest/) putting me on the Pike release of OpenStack..
+Reproducing this is fairly straightforward. In this case I've done so in a lab deployed using [openstack-ansible](https://docs.openstack.org/openstack-ansible/latest/) putting me on the Pike release of OpenStack.
 
 ```
 (lab01)# cat /etc/openstack-release 
@@ -217,7 +217,7 @@ So now let's say we need to detach and re-attach our volume (or... even attach a
 +--------------------------------------+-----------+---------+------+-------------+----------+-------------+
 ```
 
-At this point your volume will fail to re-attach throwing the error mentioned earlier in nova-compute.log. Checking the domain confirms the reason, where we see a `vda` and a `vdc` device.
+Your volume will fail to re-attach throwing the error mentioned earlier in nova-compute.log. Checking the domain confirms the reason, where we see a `vda` and a `vdc` device.
 
 ```
 (lab01)# virsh dumpxml instance-0000000a | grep "target dev='vd"
@@ -225,7 +225,7 @@ At this point your volume will fail to re-attach throwing the error mentioned ea
       <target dev='vdc' bus='virtio'/>
 ```
 
-At this point you'll need to hard reboot your instance (or stop+start) as a soft reboot does not initiate a recreation of the domain and as such the devices will not change. Once you've initiated the reboot, you'll notice that your devices have changed order.
+You will need to hard reboot your instance (or stop+start) as a soft reboot does not initiate a recreation of the domain and as such the devices will not change. Once you've initiated the reboot, you'll notice that your devices have changed order.
 
 ```
 (lab01)# virsh dumpxml instance-0000000a | grep "target dev='vd"
@@ -261,7 +261,7 @@ Attaching your volume should go through without a hitch.
 
 In short-term context (i.e. when you might be adjusting volumes on an instance) this kind of issue may not be difficult to track down, but if you happen to detach on one day and attach a new volume several days or weeks later - it can easily be overlooked.
 
-So why does this happen? My theory is that nova code is not able to determine the letters associated with devices on an instance (which goes back to the bug related to being unable to specify your device on attach). What it can likely determine is the number of devices attached - and I assume it's logically determing the next 'letter' to present based on the tiered count of disks already attached to a guest (root disk, local disks such as swap/ephemeral, cinder attached volumes). With this tiering in mind, it makes logical sense that the next available label for a cinder volume should come after these, and the conflict arises when our swap disk is attached in a LATER position than expected. Again - all theories, as I have no spent the time to review the code.
+So why does this happen? My theory is that nova code is not able to determine the letters associated with devices on an instance (which goes back to the bug related to being unable to specify your device on attach). What it can likely determine is the number of devices attached - and I assume it's logically determing the next 'letter' to present based on the tiered count of disks already attached to a guest (root disk > local disks such as swap/ephemeral > cinder attached volumes). With this tiering in mind, it makes logical sense that the next available label for a cinder volume should come after these, and the conflict arises when our swap disk is attached in a LATER position than expected. Again - all theories, as I have no spent the time to review the code.
 
 So is this a bug? I would think it isn't - ultimately it's handling a situation as cleanly as possible given the constraints of the system (at least as I understand them). There may not be a good way to determine the disk labeling that exists currently without reading in the domain configuration - and as I understand it nova-compute tends to avoid READING this configuration as it can be manually modified and therefore cause inconsistencies with nova database records.
 
