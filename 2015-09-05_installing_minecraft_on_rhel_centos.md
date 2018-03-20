@@ -3,7 +3,7 @@ Date: 2015-09-05 10:42
 Category: Self-Hosted
 Tags: gaming, self-hosted
 Slug: installing-minecraft-on-rhel
-Authors: Jose R. Gonzalez
+Authors: Jose
 Summary: Setting up a Minecraft Server using OpenJDK on CentOS/Red Hat Enterprise Linux 6
 
 Installing Minecraft Server on a YUM based distribution is as simple as obtaining the Minecraft package, matching up the Java version with the minecraft version (not required), and starting the minecraft.jar application.

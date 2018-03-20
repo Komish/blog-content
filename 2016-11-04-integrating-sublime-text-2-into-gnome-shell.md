@@ -3,7 +3,7 @@ Date: 2016-11-04 1:12
 Category: Linux
 Tags: fedora, linux, editors, gnome-shell
 Slug: sublime-text-2-on-fedora-24-with-gnome-shell
-Authors: Jose R. Gonzalez
+Authors: Jose
 Summary: Quick Notes for integrated Sublime Text 2 with an RPM Distribution of Linux using Gnome Shell 3.20
 
 In a world of a milliion plenty-capable text editors, users tend to return to their favorite based on workflow elements that they are used to. With a recent switch to a Fedora Workstation, I wanted to get my workflow close to home. [Sublime Text2](https://sublimetext.com/2) provides simple Linux x86_64 tarballs to easily run the application in any distribution, but a few manual modifications a required to integrate the executable file provided by Sublime Text into Gnome Shell to achieve the same level of workflow I've grown accustomed.

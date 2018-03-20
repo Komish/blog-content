@@ -3,7 +3,7 @@ Date: 2016-01-14 07:16
 Category: Blogging
 Tags: pelican, blogging
 Slug: modify-footer-information-in-pelican-themes
-Authors: Jose R. Gonzalez
+Authors: Jose
 Summary: A quick reference link to an article outlining a useful modification for user of the Pelican platform.
 
 **Jason Verly**, Author of [MyGeekDaddy.net](http://mygeekdaddy.net) wrote a post that solved an interesting problem caused by using default, unmodified themes for the Pelican blogging software. It was brought to my attention that the footer in my current theme [Storm](https://github.com/redVi/storm) contained a hard-coded copyright value of 2014, clearly 2 years behind. 

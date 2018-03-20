@@ -3,7 +3,7 @@ Date: 2017-12-08 00:17
 Category: Workstation
 Tags: workstation, development
 Slug: a-minimalist-aesthetic-with-iterm2
-Authors: Jose R. Gonzalez
+Authors: Jose
 Summary: A minimalist, visually-appealing configuration for iTerm2
 
 ![iterm2-capture-screenfetch]({filename}/images/iterm2-capture-screenfetch.png)

@@ -3,7 +3,7 @@ Date: 2015-10-13 22:50
 Category: Self-Hosted
 Tags: Python, Servers,
 Slug: using-greg-as-a-podcast-feed-tracker-on-your-server
-Authors: Jose R. Gonzalez
+Authors: Jose
 Summary: Setup the 'greg' python utility to automatically download new podcast episodes
 
 I frequently listen to a few Linux/Tech podcasts on the week, but lack a solid centralized location in which to keep my downloaded files. Sure, I can simply use my primary laptop, but then what if I want to listen to these while on the gaming rig? 

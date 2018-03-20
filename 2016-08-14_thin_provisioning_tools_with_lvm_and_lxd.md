@@ -3,7 +3,7 @@ Date: 2016-08-14 23:43
 Category: System Administration
 Tags: lxc, lxd, containers, docker
 Slug: enable-lvm-backing-with-thin-provisioning-in-lxd
-Authors: Jose R. Gonzalez
+Authors: Jose
 Summary: Enabling LVM-backed containers with LXD
 
 Having a freshly kicked install of Ubuntu 16.04 Server amd64, one of the pre-configured services you'll find installed is the **lxc** containervisor, ready to spin up LXC containers. I've preconfigured a 1.6TB partition into a volume group to be used as an LXC container backing store, but by default LXD will configure your containers to utilize flat files on the filesystem containing `/var/lib/lxc/`. 

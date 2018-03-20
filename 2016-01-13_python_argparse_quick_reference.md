@@ -3,7 +3,7 @@ Date: 2016-01-13 10:20
 Category: Code
 Tags: python
 Slug: creating-comand-line-arguments-with-argparse
-Authors: Jose R. Gonzalez
+Authors: Jose
 Summary: Quick Reference Sheet for creating common cli arguments in Python using the ArgParse library
 
 Command-Line arguments are hugely beneficial in hacking away at scripts, as you get to specify behaviors and functionality that otherwise would require large amounts of logic. In Bash, you typically have a significant amount of logic as well just to get arguments parsed and working as you expect. Python and ArgParse, however, make it straight-forward but the documentation can be daunting. For your sanity (and mine), here's a quick reference for the most common cli arguments used.

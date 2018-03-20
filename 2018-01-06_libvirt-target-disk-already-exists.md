@@ -3,7 +3,7 @@ Date: 2018-01-06 18:50
 Category: OpenStack
 Tags: openstack, nova, libvirt, kvm, cinder, linux
 Slug: disk-enumeration-behavior-with-openstack-nova-libvirt-kvm
-Authors: Jose R. Gonzalez
+Authors: Jose
 Summary: Observing interesting behaviors in attaching volumes to resized instances.
 
 I've run into some form of this issue error message when attempting to attach disks to instance running in an OpenStack cluster using Libvirt+KVM.

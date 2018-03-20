@@ -4,7 +4,7 @@ Modified: 2018-03-20 12:53
 Category: Code
 Tags: linux, fedora, openvpn, fluff, ansible
 Slug: consuming-ansible-roles-for-fun-and-profit
-Authors: Jose R. Gonzalez
+Authors: Jose
 Summary: Having the ability to stand up a utility in 5 minutes is just an incredible thing to experience
 
 I started working in technology at the tail end of a time where getting an open source application deployed for personal use in a home lab (or the like) carried with it a bit of a time investment reviewing and executing install docs. At my introduction to this industry, install documentation for applications deemed "stabled" (or otherwise a "stable" branch of an application) was really quite good, which historicaly has not always been the case. At this point, I could generally get things to work 90% of the time (a completely made up figured, as is standard on the internet). At most I would spend maybe half an hour for well-documented project to get a proof of concept stood up. Maybe an hour reviewing what I had done, and an hour after that would net me an application that had some bits tailored to my liking (domain integration, maybe proper private networking elements, or an entry in my *"production"* database of choice).

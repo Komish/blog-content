@@ -3,7 +3,7 @@ Date: 2017-06-06 15:00
 Category: Code
 Tags: python, argparse
 Slug: parsing-arguments-in-code-with-argparse
-Authors: Jose R. Gonzalez
+Authors: Jose
 Summary: Parse arguments not necessarily passed in via the command line
 
 Most people are probably familiar with using `argparse.ArgumentParser()` as a utility to pull information from a user via command line execution of a script. From what I can tell, this seems to parse the arguments as pulled in from `sys.argv` and do parsing based on that list of arguments.
