@@ -1,8 +1,8 @@
-Title: On Depracating Old Tools
+Title: On Deprecating Old Tools
 Date: 2018-10-08 23:00
 Category: Workstation
 Tags: workstation, development
-Slug: depracating-old-tools
+Slug: deprecating-old-tools
 Authors: Jose
 Summary: Find old versions of tools you've long since rebuilt is an interesting discovery process.
 
