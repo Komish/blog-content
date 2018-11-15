@@ -1,3 +1,5 @@
 # blog-content
 
-Personal Blog Content in Markdown (for use with Pelican Static Site Generator)
+[![Build Status](https://travis-ci.com/Komish/blog-content.svg?branch=master)](https://travis-ci.com/Komish/blog-content)
+
+Personal Blog Content in Markdown.
