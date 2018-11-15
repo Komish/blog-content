@@ -1,3 +1,3 @@
 # pelican-content
 
-Pelican Content of the josegonzalez.io blog
+Personal Blog Content in Markdown (for use with Pelican Static Site Generator)
