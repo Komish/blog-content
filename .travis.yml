@@ -11,4 +11,4 @@ install:
 script:
   - pelican --fatal errors -s tests/test_pelicanconf.py ./
 after_success:
-  - curl -X POST "${CDURL}" -h "content-type: application/json" -d '{ "secret_key": "'"${SECRET_KEY}"'" }'
+  - ./tests/trigger-build.sh
