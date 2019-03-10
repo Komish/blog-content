@@ -489,7 +489,7 @@ Expected output should include these lines (with networks adjusted to match your
 
 ## [12-dns-addon.md](https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/bf2850974e19c118d04fdc0809ce2ae8a0026a27/docs/12-dns-addon.md)
 
-There are no changes necessary for this article. If you encounter issues resolving domains, confirm that your inter-pod connectivity has been done correctly. 
+There are no changes necessary for this article. If you encounter issues resolving domains, confirm that your inter-pod connectivity has been done correctly. Do make note, however, that instances in the same private network spun up in gcloud will resolve each other's names without additional configuration. The Rackspace Cloud does not have this implemented in the same way. If you haven't already, add `/etc/hosts` entries detailed during host provisioning on this document mapping every worker/controller's private IP addresses to their short hostnames.
 
 ## Final Thoughts
 
