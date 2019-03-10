@@ -42,7 +42,7 @@ Aside from that, there is not much to note here.
 
 ## [03-compute-resources.md](https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/bf2850974e19c118d04fdc0809ce2ae8a0026a27/docs/03-compute-resources.md)
 
-I provisioned all of my resources via the [Rackspace Control Panel](https://login.rackspace.com). That said, I have created a heat template that should provision all of these resources for you using [Rackspace Cloud Orchestration](https://developer.rackspace.com/docs/user-guides/orchestration/). That template can be found [here](https://github.com/Komish/heat-templates/blob/master/k8s-the-hard-way-rax-cloud/).
+I provisioned all of my resources via the [Rackspace Control Panel](https://login.rackspace.com). That said, I have created a heat template that should provision all of these resources for you using [Rackspace Cloud Orchestration](https://developer.rackspace.com/docs/user-guides/orchestration/). That template can be found [here](https://github.com/Komish/heat-templates/blob/master/k8s-the-hard-way-rax-cloud/) (coming soon!).
 
 Here's a quick summary of the resources that are required throughout this lab:
 
