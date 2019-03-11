@@ -116,15 +116,15 @@ I would also recommend adding the `KUBERNETES_PUBLIC_ADDRESS` environment variab
 echo 'export KUBERNETES_PUBLIC_ADDRESS="clb.ip.goes.here"' >> ~/.bash_aliases
 ```
 
-On your workstation (or workstation instance), I would recommend a few /etc/hosts entries as well. I structured mine to look something like this (please change the names of the nodes to match their short hostnames `hostname -s`):
+On your workstation (or workstation instance), I would recommend a few /etc/hosts entries as well. I structured mine to look something like this (please change the names of the nodes to match their short hostnames (public|private).`hostname -s`):
 
 ```shell
-104.239.168.185 public.ctrl-1
-104.239.168.191 public.ctrl-2
-104.239.168.196 public.ctrl-3
-104.239.168.86 public.worker-1
-104.239.173.105 public.worker-2
-104.239.230.33 public.worker-3
+a.b.c.1 public.ctrl-1
+a.b.c.2 public.ctrl-2
+a.b.c.3 public.ctrl-3
+a.b.c.4 public.worker-1
+a.b.c.5 public.worker-2
+a.b.c.6 public.worker-3
 
 10.240.0.3 private.ctrl-1 ctrl-1
 10.240.0.4 private.ctrl-2 ctrl-2
