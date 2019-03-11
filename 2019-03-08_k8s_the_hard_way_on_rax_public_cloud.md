@@ -80,7 +80,11 @@ I used 2GB General Purpose VMs as I knew this would be a short-lived lab. You do
 
 ![raxcloud-2gb-flavor]({static}/images/kthw-raxcloud-2gb-flavor.png)
 
-Remember that each of these servers need to be attached to the Cloud Network you provisioned earlier in the tutorial. At server creation, drop down the "Advanced Options" tab and add your network to this instance at boot time. I would also recommend having the provisioning process install your SSH Public Key. If you don't have one, create one before you start deploying instances. If you decide to utilize a workstation instance as mentioned earlier - place the relevant private key there for ease of access.
+Remember that each of these servers need to be attached to the Cloud Network you provisioned earlier in the tutorial. At server creation, drop down the "Advanced Options" tab and add your network to this instance at boot time. 
+
+![raxcloud-server-adv-options]({static}/images/kthw-raxcloud-server-adv-options.png)
+
+I would also recommend having the provisioning process install your SSH Public Key. If you don't have one, create one before you start deploying instances. If you decide to utilize a workstation instance as mentioned earlier - place the relevant private key there for ease of access.
 
 #### Kubernetes Workers
 
