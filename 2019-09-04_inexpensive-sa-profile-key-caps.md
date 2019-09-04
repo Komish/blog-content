@@ -28,6 +28,6 @@ SA Profile key caps are generally quite a bit taller than standard MX-compatible
 
 ![sadark]({static}/images/sa-keycaps-close.jpg)
 
-Ultimately, these hit an excellent price point. Just low enough of a price where I felt comfortable ordering them and hating them. Luckily I found them to be pretty comfortable and haven't run into any of the downfalls mentioned on the listing's Amazon reviews.
+Ultimately, these hit an excellent price point. Just low enough of a price where I felt comfortable ordering them and hating them (i.e. accepting the risk with ordering something inexpensive). Luckily I found them to be pretty comfortable and haven't run into any of the downfalls mentioned on the listing's Amazon reviews.
 
 All in all, I'm quite happy with them and would easily order more colors should they come available.
