@@ -8,7 +8,7 @@ Summary: SA Profile keycaps can be expensive, but do they have to be?
 
 ![samain]({static}/images/sa-keycaps-main.jpg)
 
-Once upon a time I found myself on [mechanical keyboard subreddits](https://www.reddit.com/r/MechanicalKeyboards/) looking at the builds of like-minded, overly obsessed keyboard enthusiasts. It goes without saying that any hobby has its costs, and mechanical keyboards are no different. Enthusiasts can expect to pay a premium for a keyboard with a unique layout, feature set, or build quality. And yet another premium coudl be paid for key caps of comparable quality... because you can't possible put a cheap set of caps on your very expensive, high-end board!
+Once upon a time I found myself on [mechanical keyboard subreddits](https://www.reddit.com/r/MechanicalKeyboards/) looking at the builds of like-minded, overly obsessed keyboard enthusiasts. It goes without saying that any hobby has its costs, and mechanical keyboards are no different. Enthusiasts can expect to pay a premium for a keyboard with a unique layout, feature set, or build quality. And yet another premium could be paid for key caps of comparable quality... because you can't possible put a cheap set of caps on your very expensive, high-end board!
 
 But today I'm much more practical. I do enjoy a unique layout, but I have some pretty basic requirements of any mechanical keyboard I'll buy today and budget is high up on the list. High-end key cap sets are priced as such because of the quality of materials and the number of keys in the set. That is - these sets should cover every edge-case keyboard layout that it reasonably can, which causes the number of keys that need to be included in the set to skyrocket.
 
